@@ -19,7 +19,7 @@
       state: present
       update_cache: true
 #Отключаем UFW и удаляем его из автозагрузки
- - name: disable ufw service
+  - name: disable ufw service
     service:
       name: ufw
       state: stopped
